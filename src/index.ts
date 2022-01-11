@@ -142,7 +142,7 @@ export const createAction = async function (request, reply, runner, itemTaskMana
     const member: Member = request.member;
     const paramItemId: string = request.params.id;
     const queryItemsId: string[] = request.query.id;
-    const geo = geoip.lookup(request.ip);
+    const geo = geoip.lookup(/*request.ip*/'83.47.86.173');
 
     var view: View = null;
     const {hostname} = request;

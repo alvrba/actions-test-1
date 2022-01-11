@@ -7,8 +7,8 @@ export enum VIEW_HOSTNAMES {
 }
 
 export enum View {
-  BUILDER_NAME = 'builder', 
-  PLAYER_NAME = 'player', 
+  BUILDER_NAME = /*'builder'*/'localhost:3111', 
+  PLAYER_NAME = /*'player'*/'localhost:3112', 
   EXPLORER_NAME = 'explorer',
   UNKNOWN_NAME = 'unknown',
 }
